@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Soal 3 - Dashboard dan Kartu Ringkasan</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <section>
+      <div class="tab-bar">
+        <span class="tab-dashboard">Dashboard</span>
+      </div>
+      <div class="create-row">
+        <button type="button" class="btn btn-tool">
+          <img src="icons/dokumen-abu.svg" alt="">Create Internal Letter
+        </button>
+        <button type="button" class="btn btn-tool">
+          <img src="icons/dokumen-abu.svg" alt="">Create External Letter
+        </button>
+        <button type="button" class="btn btn-tool">
+          <img src="icons/dokumen-abu.svg" alt="">Create Invitational Letter
+        </button>
+      </div>
+      <div class="container-fluid px-3">
+        <div class="row g-4">
+          <div class="col-12 col-md-4">
+            <div class="stat-card card-green">
+              <div class="stat-body">
+                <img src="icons/kotak-masuk-putih.svg" alt="" class="big-icon">
+                <div>
+                  <div class="num">0</div>
+                  <div class="label">Need Follow Up</div>
+                </div>
+              </div>
+              <div class="stat-foot">
+                <span>View Details</span>
+                <img src="icons/panah-hijau.svg" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="stat-card card-blue">
+              <div class="stat-body">
+                <img src="icons/dokumen-putih.svg" alt="" class="big-icon">
+                <div>
+                  <div class="num">0</div>
+                  <div class="label">Incoming Letter</div>
+                </div>
+              </div>
+              <div class="stat-foot">
+                <span>View Details</span>
+                <img src="icons/panah-biru.svg" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="stat-card card-red">
+              <div class="stat-body">
+                <img src="icons/percakapan-putih.svg" alt="" class="big-icon">
+                <div>
+                  <div class="num">0</div>
+                  <div class="label">Disposition</div>
+                </div>
+              </div>
+              <div class="stat-foot">
+                <span>View Details</span>
+                <img src="icons/panah-merah.svg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,266 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: #333333;
+  background-color: #ffffff;
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px 10px;
+  background-color: #cccccc;
+}
+
+.app-header .brand {
+  font-size: 16px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.app-header .user {
+  font-size: 12px;
+  color: #222222;
+}
+
+.app-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 10px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #dddddd;
+}
+
+.btn-tool {
+  padding: 2px 8px;
+  font-size: 11px;
+  color: #444444;
+  background-color: #f3f3f3;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+}
+
+.btn-tool img {
+  width: 12px;
+  height: 12px;
+  margin-right: 4px;
+  vertical-align: -2px;
+}
+
+.search-box {
+  display: flex;
+  width: 220px;
+  max-width: 100%;
+  overflow: hidden;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 2px 8px;
+  font-size: 11px;
+  border: 0;
+  outline: 0;
+}
+
+.search-box button {
+  padding: 0 8px;
+  color: #888888;
+  background-color: #ffffff;
+  border: 0;
+}
+
+.search-box button img {
+  width: 13px;
+  height: 13px;
+}
+
+.sidebar {
+  min-height: 480px;
+  padding-bottom: 6px;
+  background-color: #ececec;
+  border-right: 3px solid #cccccc;
+}
+
+.sidebar-title {
+  padding: 7px 10px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #424242;
+}
+
+.letter-item {
+  display: flex;
+  gap: 10px;
+  margin: 4px 4px 0;
+  padding: 8px 10px;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-left: 4px solid #333333;
+  border-radius: 5px;
+}
+
+.letter-icon {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+}
+
+.letter-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.letter-name {
+  font-weight: 700;
+  color: #333333;
+  overflow-wrap: anywhere;
+}
+
+.letter-subject {
+  color: #555555;
+  overflow-wrap: anywhere;
+}
+
+.letter-date {
+  font-size: 11px;
+  color: #888888;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.tab-bar {
+  background-color: #cccccc;
+  border-bottom: 4px solid #e8541e;
+}
+
+.tab-dashboard {
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #e8541e;
+}
+
+.create-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 10px 10px 8px;
+}
+
+.stat-card {
+  overflow: hidden;
+  background-color: #ffffff;
+  border: 1px solid var(--card-color);
+  border-radius: 3px;
+}
+
+.stat-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 14px 10px;
+  color: #ffffff;
+  background-color: var(--card-color);
+}
+
+.stat-body .big-icon {
+  width: 4rem;
+  height: 4rem;
+}
+
+.stat-body .num {
+  font-size: 2.6rem;
+  line-height: 1;
+  text-align: right;
+}
+
+.stat-body .label {
+  font-size: 12px;
+  text-align: right;
+}
+
+.stat-foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  color: var(--card-color);
+  background-color: #ffffff;
+}
+
+.stat-foot img {
+  width: 16px;
+  height: 16px;
+}
+
+.card-green {
+  --card-color: #2dbe4e;
+}
+
+.card-blue {
+  --card-color: #22b8e6;
+}
+
+.card-red {
+  --card-color: #f05050;
+}
+
+.todo-panel {
+  padding: 8px 12px 6px;
+  color: #ffffff;
+  background-color: #7566b8;
+}
+
+.todo-title {
+  margin-bottom: 3px;
+  font-size: 13px;
+}
+
+.todo-search {
+  display: flex;
+  overflow: hidden;
+  background-color: #eef0f2;
+  border-radius: 3px;
+}
+
+.todo-search input {
+  flex: 1;
+  padding: 5px 8px;
+  font-size: 12px;
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+}
+
+.todo-search button {
+  padding: 0 10px;
+  color: #444444;
+  background-color: transparent;
+  border: 0;
+}
+
+.todo-search button img {
+  width: 14px;
+  height: 14px;
+}
+
+.todo-empty {
+  margin: 0;
+  padding: 12px 0 40px;
+  font-style: italic;
+  text-align: center;
+  color: #222222;
+}
+
+.demo-wrap {
+  padding: 12px;
+}
